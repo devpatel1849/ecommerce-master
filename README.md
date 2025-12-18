@@ -39,4 +39,67 @@ It is built as a learning and internship-level project to understand real-world 
 ---
 
 ## 📂 Project Structure
+djecommerce/
+├── core/
+├── djecommerce/
+│ └── settings/
+├── templates/
+├── static_in_env/
+├── manage.py
+├── requirements.txt
+└── db.sqlite3
 
+
+## ⚙️ Installation & Setup
+
+Make sure Python is installed on your system.
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/devpatel1849/ecommerce-master.git
+cd ecommerce-master
+
+###2️⃣ Create & activate virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+5️⃣ Create superuser
+python manage.py createsuperuser
+
+6️⃣ Run the development server
+python manage.py runserver
+
+📚 Learning Outcomes
+
+Understanding Django project structure and settings management
+
+Working with Django ORM and model relationships
+
+Implementing authentication using Django Allauth
+
+Integrating third-party services like Stripe
+
+Handling real-world debugging and dependency issues
+
+🔮 Future Improvements
+
+Product reviews and ratings
+
+Wishlist functionality
+
+Order tracking system
+
+Deployment on cloud platforms (Render / AWS)
+
+👨‍💻 Author
+
+Dev Patel
+Computer Engineering Student
+GitHub: https://github.com/devpatel1849
